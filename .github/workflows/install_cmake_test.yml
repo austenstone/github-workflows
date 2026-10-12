@@ -9,27 +9,27 @@ on:
       cmake_version:
         type: string
         description: "CMake version to install and verify"
-        default: "4.0.3"
+        default: "4.4.4"
       linux_x86_64_hash:
         type: string
         description: "SHA-256 of cmake-<version>-linux-x86_64.tar.gz"
-        default: "585ae9e013107bc8e7c7c9ce872cbdcbdff569e675b07ef57aacfb88c886faac"
+        default: "e5bb807f7728cb60cd8b27ebc97a2edb469b68655f21e844a600c3575b76f5bb"
       linux_aarch64_hash:
         type: string
         description: "SHA-256 of cmake-<version>-linux-aarch64.tar.gz"
-        default: "391da1544ef50ac31300841caaf11db4de3976cdc4468643272e44b3f4644713"
+        default: "a1b6cc63636a0e55c63257cf3315a8a5f129e42fade25db1afea4ff8ab06f25e"
       macos_hash:
         type: string
         description: "SHA-256 of cmake-<version>-macos-universal.tar.gz"
-        default: "4e85de4daf1c3e82d7dc6b8ba5683972944b466343aeb9c327a742437bb3ce9a"
+        default: "4b7b73704b1db9b374e5c9ab8e17ac6148b817b6396ee75cd94a852cbac9d305"
       windows_x86_64_hash:
         type: string
         description: "SHA-256 of cmake-<version>-windows-x86_64.zip"
-        default: "b59a31dfbfa376a4aaea9ff560ff2b29f78ee5f9fb15447fc71ae7bf9fea9379"
+        default: "bace36e94b31c68ab6fa295f26dfa11219e0701cf7c94b0284a7d1cb13dac536"
       windows_arm64_hash:
         type: string
         description: "SHA-256 of cmake-<version>-windows-arm64.zip"
-        default: "86ccd6485bbd4bb41a1a858db397be5bca5e0de96858bf8dbba7a64407bd6c00"
+        default: "ed673bbc4eb7c1e59b0407fd52f1680fc0ae3229a46b9b7b3ea9133764f07f67"
   workflow_dispatch:
 
 jobs:

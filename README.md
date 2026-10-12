@@ -101,7 +101,7 @@ action) and runs your configure and build commands across Linux, macOS, and
 Windows. It removes the boilerplate of installing CMake and wiring up
 `$CMAKE`-based build steps in each consumer.
 
-By default it installs CMake 4.0.3, configures with
+By default it installs CMake 4.4.4, configures with
 `$CMAKE -G Ninja -B build -S .`, and builds with `$CMAKE --build build`.
 Linux builds run by default. macOS and Windows builds can be enabled with
 `enable_macos_checks` and `enable_windows_checks` respectively. A minimal
